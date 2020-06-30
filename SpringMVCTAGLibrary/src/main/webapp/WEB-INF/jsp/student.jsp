@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h2 align="center">Student information</h2>
-	<form:form action="/SpringMVCTAGLibrary/addstudent" method="POST">
+	 <form:form method = "post" action = "/SpringMVCTAGLibrary/addstudent">
 	<table align="center">
 		<tr>
 			<td>
@@ -36,10 +36,10 @@
 			</td>
 		</tr>
 		<tr>
-			<td colspan="2">
+			<td>
 				<input type="submit" value="submit"/>
 			</td>
-			<td colspan="2">
+			<td>
 				<input type="button" value="clear"/>
 			</td>
 		</tr>

@@ -8,22 +8,22 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2 align="center"></h2>
-	<table align="center">
+	<h2 align="center">Student information</h2>
+	<table align="center" border="1">
 		<tr>
 			<td>
 				Name
 			</td>
-			<tr>
+			<td>
 				${name}
-			</tr>
+			</td>
 		</tr>
 		<tr>
 			<td>
 				Address
 			</td>
 			<td>
-				$address
+				${address}
 			</td>
 		</tr>
 		<tr>
@@ -34,8 +34,6 @@
 				${age}
 			</td>
 		</tr>
-	
-	
 	</table>
 </body>
 </html>
